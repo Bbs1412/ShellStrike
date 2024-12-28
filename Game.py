@@ -122,7 +122,7 @@ def change_GUN():
 
     CURR_GUN = (CURR_GUN + 1) % len(all_GUNs)
     GUN, OFFSET = all_GUNs[CURR_GUN]
-    GUN, OFFSET = all_GUNs[-1]
+    # GUN, OFFSET = all_GUNs[-1]
 
 
 if GUN[-1] == '\n':
